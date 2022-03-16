@@ -4,8 +4,9 @@ const cors = require('cors')
 const CustomError = require('./CustomError')
 const interviewroutes = require('./routes/interview')
 const userroutes = require('./routes/user')
+const config = require('./config')
 
-const dburl = 'mongodb+srv://e19cse170:khushi123@cluster0.hpd1y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const dburl = `mongodb+srv://${config.username}:${config.password}@cluster0.hpd1y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 mongoose.connect(dburl);
 const db = mongoose.connection
