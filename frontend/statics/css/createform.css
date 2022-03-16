@@ -1,0 +1,36 @@
+body {
+    background-color: #C65D7B !important;
+}
+
+.heading-div {
+    background-color: #874356;
+    color: #C65D7B;
+    width: auto;
+    padding: 2.5rem;
+    margin: 2.5rem;
+    text-align: center;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 2.5rem;
+    background-color: #874356;
+}
+
+.submit-button {
+    align-self: center;
+    border-radius: 5rem;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #F68989;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }

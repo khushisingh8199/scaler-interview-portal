@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./statics/css/createform.css">
+</head>
+<body>
+    <div class="heading-div">
+        <h1>Edit Interview</h1>
+    </div>
+    <div class="form-div">
+        <form class="form" >
+            <table>
+                <tr>
+                    <td><label for="date">Enter Date: </label></td>
+                    <td><input type="date" name="date" id="date"><br> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="starttime">Enter Start Time: </label></td>
+                    <td><input type="time" name="starttime" id="starttime"><br> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="endtime">Enter End Time: </label></td>
+                    <td><input type="time" name="endtime" id="endtime"><br> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="admins">Select Admins: </label></td>
+                    <td>
+                        <div>
+                            <select name="admins" id="admins" multiple="multiple"></select><br> <br>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="participants">Select Participants: </label></td>
+                    <td>
+                        <div class="inline field">
+                            <select name="participants" id="participants" multiple="multiple" class="label ui selection fluid dropdown"></select><br> <br>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="submit-button" id='submit' type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <a class="submit-button" href="./index.html">Go to home</a>
+
+    <script src="./statics/js/editform.js"></script>
+</body>
+</html>
